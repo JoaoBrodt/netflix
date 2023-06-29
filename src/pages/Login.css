@@ -1,0 +1,98 @@
+.loginPage--bg{
+    background-image: url(../login-background.webp);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.loginPage--body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.loginPage--box{
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 5vh;
+    box-sizing: border-box;
+    max-width: 25vw;
+}
+.loginPage--box h2{
+    font-size: 32px;
+}
+
+.loginPage--body input{
+    height: 50px;
+    width: 20vw;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 20px 0;
+}
+
+.loginPage--body button{
+    width: 20vw;
+    height: 50px;
+    margin: 20px 0;
+    color: #ffff;
+    background-color: #e50914;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #e50914;
+    cursor: pointer;
+}
+
+.loginPageSupport{
+    color:  #919090;
+    font-size: 12px;
+    display: flex;
+
+}
+.loginPageSupport--remember{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.loginPageSupport--remember span{
+    display: flex;
+    cursor: pointer;
+}
+
+.loginPageSupport--remember span input{
+    display: flex;
+    width: 15px;
+    margin-top: -20px;
+    margin-right: 5px;
+}
+
+.need--help{
+    cursor: pointer;
+}
+
+.loginPage--footer{
+    padding: 40px 0;
+    ;
+    color: #747474;;
+}
+
+strong{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.loginPage--assine{
+    font-size: 16px;
+    padding: 10px 0;
+}

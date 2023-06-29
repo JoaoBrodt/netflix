@@ -1,0 +1,42 @@
+header div{
+    display: flex;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul li{
+    margin-left: 30px;
+    cursor: pointer;
+    opacity: 1;
+    transition: all ease 0.2s;
+}
+
+header ul li:hover{
+    opacity: 0.6;
+}
+
+header img:first-child{
+    width: 100px;
+}
+header img:nth-child(2){
+    width: 40px;
+    border-radius: 30%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+
+.black{
+    background-color: #141414;
+}

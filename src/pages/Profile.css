@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+header img{
+    width: 220px;
+    display: block;
+}
+
+ .watchingProfile p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15% ;
+    margin-bottom: 40px;
+}
+
+.userList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userList li{
+    list-style: none;
+    margin: 0 15px ;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.userList li:hover{
+    opacity: 0.6;
+}
+
+.userList li img{
+    height: 20vh;
+}
+
+.userList li p{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    color:#9999997c;
+}
